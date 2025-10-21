@@ -631,7 +631,7 @@ export default function WeddingInvitation() {
 
             {/* Descriptive paragraphs */}
             <div className="max-w-2xl mx-auto space-y-6">
-              <p className="text-base md:text-lg leading-relaxed font-sans tracking-wide" style={{ color: "#371e00" }}>
+              <p className="text-base md:text-lg leading-relaxed font-sans tracking-wide" style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}>
                 As love is what this day is all about, your presence is one we can't celebrate without. But should you
                 still believe that a gift is worth giving, a monetary gift for our future would be a delightful
                 blessing.
@@ -717,7 +717,7 @@ export default function WeddingInvitation() {
                 className="text-base leading-relaxed mb-4"
                 style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}
               >
-                <span style={{ fontWeight: "bold" }}>This event is strictly by invitation only</span>
+                <span style={{ fontWeight: "bold" }}>This event is strictly by invitation only.</span>
               </p>
               <p className="text-base leading-relaxed" style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}>
                 As much as we want to celebrate our special day with everyone that has touched our lives, please be
