@@ -1254,7 +1254,7 @@ export default function WeddingInvitation() {
           backgroundImage: `url(${bgUrl.src})`,
           backgroundSize: "cover",
           backgroundPosition: "center left",
-          backgroundAttachment: "fixed",
+          // backgroundAttachment: "fixed",
         }}
       >
         <div className="container mx-auto max-w-3xl">
@@ -1426,7 +1426,7 @@ export default function WeddingInvitation() {
           backgroundImage: `url(${bgUrl.src})`,
           backgroundSize: "cover",
           backgroundPosition: "center left",
-          backgroundAttachment: "fixed",
+          // backgroundAttachment: "fixed",
         }}
       >
         <div className="container mx-auto text-center">
