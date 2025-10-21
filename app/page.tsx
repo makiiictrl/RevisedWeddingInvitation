@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight, Menu, X } from "lucide-react"
 
+import bgUrl from '../public/images/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3.jpg';
+
 export default function WeddingInvitation() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [timeLeft, setTimeLeft] = useState({
@@ -1247,8 +1249,9 @@ export default function WeddingInvitation() {
         id="our-big-day"
         className="py-20 px-4"
         style={{
-          backgroundImage:
-            "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
+          // backgroundImage:
+          //   "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
+          backgroundImage: `url(${bgUrl.src})`,
           backgroundSize: "cover",
           backgroundPosition: "center left",
           backgroundAttachment: "fixed",
@@ -1418,8 +1421,9 @@ export default function WeddingInvitation() {
       <footer
         className="text-primary-foreground py-12 px-4 min-h-[200px] md:min-h-auto flex items-center justify-center"
         style={{
-          backgroundImage:
-            "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
+          // backgroundImage:
+          //   "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
+          backgroundImage: `url(${bgUrl.src})`,
           backgroundSize: "cover",
           backgroundPosition: "center left",
           backgroundAttachment: "fixed",
