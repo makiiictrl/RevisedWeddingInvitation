@@ -1248,14 +1248,7 @@ export default function WeddingInvitation() {
       <section
         id="our-big-day"
         className="py-20 px-4"
-        style={{
-          // backgroundImage:
-          //   "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
-          backgroundImage: `url(${bgUrl.src})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center left",
-          backgroundAttachment: "fixed",
-        }}
+        style={{ backgroundImage: `url(${bgUrl.src})`, backgroundSize: "cover", backgroundPosition: "center left" }}
       >
         <div className="container mx-auto max-w-3xl">
           {/* "Our Big Day Awaits" heading */}
@@ -1420,14 +1413,7 @@ export default function WeddingInvitation() {
       {/* Footer */}
       <footer
         className="text-primary-foreground py-12 px-4 min-h-[200px] md:min-h-auto flex items-center justify-center"
-        style={{
-          // backgroundImage:
-          //   "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
-          backgroundImage: `url(${bgUrl.src})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center left",
-          backgroundAttachment: "fixed",
-        }}
+        style={{ backgroundImage: `url(${bgUrl.src})`, backgroundSize: "cover", backgroundPosition: "center left" }}
       >
         <div className="container mx-auto text-center">
           <p className="text-2xl mb-2" style={{ fontFamily: "var(--font-great-vibes)" }}>

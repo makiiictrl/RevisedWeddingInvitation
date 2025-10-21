@@ -3,6 +3,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
+.no-fixed-on-touch { background-attachment: scroll !important; }
+
+@media (pointer: coarse) {
+  .bg-fixed-desktop { background-attachment: scroll; }
+}
+
+@media (min-width: 768px) {
+  .bg-fixed-desktop { background-attachment: fixed; }
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
