@@ -591,11 +591,11 @@ export default function WeddingInvitation() {
                 className="w-16 h-16 md:w-20 md:h-20 rounded-full border-0 cursor-default transition-transform hover:scale-110 shadow-lg"
                 style={{ backgroundColor: "#E8DAF0" }}
               />
-              <button
+              {/* <button
                 aria-label="Very light pink swatch #F3E4F5"
                 className="w-16 h-16 md:w-20 md:h-20 rounded-full border-0 cursor-default transition-transform hover:scale-110 shadow-lg"
                 style={{ backgroundColor: "#F3E4F5" }}
-              />
+              /> */}
               <button
                 aria-label="Pale pink swatch #FCDCE1"
                 className="w-16 h-16 md:w-20 md:h-20 rounded-full border-0 cursor-default transition-transform hover:scale-110 shadow-lg"
