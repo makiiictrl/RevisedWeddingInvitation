@@ -611,7 +611,7 @@ export default function WeddingInvitation() {
             {/* Footnote */}
             <div className="text-center max-w-xl">
               <p className="text-sm leading-relaxed" style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}>
-                For those part of the entourage, the bride and groom will reach out to you separately
+                For those part of the entourage, the bride and groom will reach out to you separately.
               </p>
             </div>
           </div>
@@ -759,7 +759,7 @@ export default function WeddingInvitation() {
                 WEDDING OFFICIANT
               </p>
               <p className="text-base italic" style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}>
-                Pastor Robert P Martel
+                Pastor Robert P. Mortel
               </p>
             </div>
 
@@ -1138,14 +1138,14 @@ export default function WeddingInvitation() {
               className="text-5xl md:text-6xl lg:text-7xl mb-4 leading-tight"
               style={{ fontFamily: "var(--font-great-vibes)", color: "#371e00" }}
             >
-              Forever starts now.
+              Forever begins, by His grace.
             </h2>
-            <p
+            {/* <p
               className="text-3xl md:text-4xl lg:text-5xl italic"
               style={{ fontFamily: "var(--font-playfair-display)", color: "#371e00", fontSize: "1.875rem" }}
             >
-              and the adventure is all ours.
-            </p>
+              ready for a lifetime of love and faith.
+            </p> */}
           </div>
 
           <div className="flex flex-col md:flex-row md:relative md:h-[600px] md:lg:h-[700px] items-center justify-center gap-8 md:gap-0">
@@ -1248,7 +1248,14 @@ export default function WeddingInvitation() {
       <section
         id="our-big-day"
         className="py-20 px-4"
-        style={{ backgroundImage: `url(${bgUrl.src})`, backgroundSize: "cover", backgroundPosition: "center left" }}
+        style={{
+          // backgroundImage:
+          //   "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
+          backgroundImage: `url(${bgUrl.src})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center left",
+          backgroundAttachment: "fixed",
+        }}
       >
         <div className="container mx-auto max-w-3xl">
           {/* "Our Big Day Awaits" heading */}
@@ -1408,20 +1415,29 @@ export default function WeddingInvitation() {
             </div>
           </div>
         </div>
-      </section>
 
-      {/* Footer */}
-      <footer
-        className="text-primary-foreground py-12 px-4 min-h-[200px] md:min-h-auto flex items-center justify-center"
-        style={{ backgroundImage: `url(${bgUrl.src})`, backgroundSize: "cover", backgroundPosition: "center left" }}
-      >
-        <div className="container mx-auto text-center">
-          <p className="text-2xl mb-2" style={{ fontFamily: "var(--font-great-vibes)" }}>
+        <div className="container mx-auto text-center mt-6">
+          <p className="text-2xl mb-2 text-white" style={{ fontFamily: "var(--font-great-vibes)" }}>
             Jomary & Naomi
           </p>
           <p className="text-primary-foreground/80">December 8th, 2025</p>
         </div>
-      </footer>
+      </section>
+
+      {/* Footer */}
+      {/* <footer
+        className="text-primary-foreground py-12 px-4 min-h-[200px] md:min-h-auto flex items-center justify-center"
+        style={{
+          // backgroundImage:
+          //   "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c6bdcfd-bad9-43c2-a7c8-d545f4911ac3-0s55L9RlgOpmheSftp4ndmQKlE1tW6.jpg')",
+          backgroundImage: `url(${bgUrl})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center left",
+          backgroundAttachment: "fixed",
+        }}
+      >
+        
+      </footer> */}
     </div>
   )
 }
