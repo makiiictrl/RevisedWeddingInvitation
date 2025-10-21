@@ -1418,10 +1418,20 @@ export default function WeddingInvitation() {
 
         <div className="container mx-auto text-center mt-6">
           <p className="text-2xl mb-2 text-white" style={{ fontFamily: "var(--font-great-vibes)" }}>
-            Jomary & Naomi
+            Jomary & &nbsp;Naomi
           </p>
           <p className="text-primary-foreground/80">December 8th, 2025</p>
         </div>
+                
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        
+
+        
       </section>
 
       {/* Footer */}
