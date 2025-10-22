@@ -776,7 +776,7 @@ export default function WeddingInvitation() {
                   Alberto Portuguez
                 </p>
                 <p className="text-base italic" style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}>
-                  Marylou Portuguez
+                  Marilyn Portuguez
                 </p>
               </div>
               <div>
@@ -817,7 +817,7 @@ export default function WeddingInvitation() {
                   Mr. Rustico Camangian & Mrs. Winnie Mae Camangian
                 </p>
                 <p className="text-sm" style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}>
-                  Mr. Rodel Roque & Mrs. Analyn Roque
+                  Mr. Leodel Roque & Mrs. Analyn Roque
                 </p>
                 <p className="text-sm" style={{ fontFamily: "var(--font-inter)", color: "#371e00" }}>
                   Mr. Graham David Arnold & Mrs. Gladys De Torres Arnold
